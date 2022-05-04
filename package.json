@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run dev | npm run bsb-watch",
     "dev": "webpack-dev-server",
-    "bsb-watch": "bsb -make-world -w",
+    "watch": "bsb -make-world -w",
     "build": "bsb -make-world && webpack",
     "clean": "bsb -clean-world"
   },
@@ -16,17 +16,17 @@
   "author": "Mateusz Zatorski",
   "license": "MIT",
   "dependencies": {
-    "bs-director": "^0.0.1",
+    "bs-director": "^0.0.6",
     "lodash.flatten": "^4.4.0",
     "lodash.shuffle": "^4.2.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "reason-react": "https://github.com/reasonml/reason-react.git",
-    "twemoji": "^2.3.0"
+    "twemoji": "^14.0.2"
   },
   "devDependencies": {
-    "bs-platform": "^1.7.3",
-    "webpack": "^2.5.1",
+    "bs-platform": "^9.0.2",
+    "webpack": "^5.72.0",
     "webpack-dev-server": "2"
   }
 }
