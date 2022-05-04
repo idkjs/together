@@ -68,7 +68,7 @@ let professions = [|
   {js|✈️|js},
   {js|🚀|js},
   {js|🚒|js},
-|] /*   |> shuffle;}*/;
+|]|> shuffle;
 
 // let nonSequencedProfessions = [|
 //   {js|👮|js},
